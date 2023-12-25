@@ -1,5 +1,5 @@
 import os,json
-JS = os.listdir(".\JSON")
+JS = os.listdir(".\JSON") # JSON>CN
 
 for filename in JS:
     if(filename.endswith(".json")):

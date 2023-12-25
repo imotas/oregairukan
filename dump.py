@@ -1,5 +1,5 @@
 import os,json
-CN = os.listdir(".\CN")
+CN = os.listdir(".\CN") # CN>JSON
 
 for filename in CN:
     if(filename.endswith(".txt")):
